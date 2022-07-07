@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#b_1{
+    width: 100vw;
+    height: 20vh;
+    background-color: rgb(86, 198, 183);
+}
+#b_2{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgb(198, 198, 198);
+}
+#contenitore{
+    position:relative;
+}
+#display{
+    height: 80vh;
+    width: 80vw;
+    position: absolute;
+    z-index: 1;
+    top: 5rem;
+    left: 10rem;
+    background-color: white;
+}
