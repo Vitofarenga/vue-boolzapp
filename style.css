@@ -94,7 +94,7 @@ color: grey;
 #topbar{
    width: 100%;
    height: 5rem;
-  
+  display: flex;
 }
 #footerbar{
    width: 100%;
@@ -117,4 +117,7 @@ color: grey;
 .message{
     max-width: 40%;
     margin: 1rem;
+}
+.userid{
+    margin-top: 0.5rem;
 }
