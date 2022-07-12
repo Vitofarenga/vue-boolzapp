@@ -11,7 +11,29 @@
 <body>
     <div id="root">
         <div id="contenitore">
-            <div id="display"></div>
+            <div id="display">
+                <div id="left">
+                    <div class="dim color">
+                        <div class="userpic">
+
+                        </div>
+                    </div>
+                    <div class="dim"></div>
+                    <div id="dim2"></div>
+                    <div class="dim3">
+                        <div class="chat" v-for="(contact, index) in contacts"
+                        :class="(index === activeContact) ? 'contact active' : 'contact'"
+                        @click="setActiveConversation(index)">
+                           <div class="userpic">
+                            <img :src="'img/avatar' + contact.avatar + '.jpg'" :alt="contact.name">
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="right">
+
+                </div>
+            </div>
             <div id="b_1"></div>
             <div id="b_2"></div>
             
